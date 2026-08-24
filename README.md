@@ -24,22 +24,23 @@ I design, implement, test, and document the full stack for small services. Built
 ## Selected projects (I built these end‑to‑end) 📂
 
 1) Banking Transaction REST API — Spring Boot · MySQL · Postman  
-   https://github.com/PraveenAulagar/banking-app  
+   [https://github.com/PraveenAulagar/banking-app](https://github.com/PraveenAulagar/banking-application)  
    - **What I built:** 12+ endpoints for accounts, deposit, withdrawal, and transfers. Implemented ACID transfers with @Transactional.  
    - **Evidence:** Postman collection + example requests in README; schema, migration SQL, and commit history in repo show incremental development.  
    - **Why it matters:** Safe, transactional money transfers and clear HTTP API contract for clients.
-
-2) Student Registration Portal — Java Servlets · JSP · JDBC · MySQL  
-   https://github.com/PraveenAulagar/student-portal  
+2) Employee Management System — Spring MVC · JdbcTemplate · MySQL  
+   [https://github.com/PraveenAulagar/emp-management](https://github.com/PraveenAulagar/employee-management-system)  
+   - **What I built:** CRUD with JdbcTemplate + custom RowMapper, layered DI (DAO → Service → Controller), and maintainable SQL patterns.  
+   - **Evidence:** commit history and README include sample data and usage.  
+   - **Why it matters:** Shows practical ability to structure code and data access for maintainability.
+     
+3) Student Registration Portal — Java Servlets · JSP · JDBC · MySQL  
+  [ https://github.com/PraveenAulagar/student-portal ](https://github.com/PraveenAulagar/student-registration-portal) 
    - **What I built:** Full MVC web app with registration/login/profile CRUD and secure session handling. Dual-layer validation (client JS + server).  
    - **Evidence:** PreparedStatement DAO layer (prevents SQL injection), step-by-step README with how I tested logout/session edge cases.  
    - **Why it matters:** Demonstrates secure classical Java web app building and secure session lifecycle.
 
-3) Employee Management System — Spring MVC · JdbcTemplate · MySQL  
-   https://github.com/PraveenAulagar/emp-management  
-   - **What I built:** CRUD with JdbcTemplate + custom RowMapper, layered DI (DAO → Service → Controller), and maintainable SQL patterns.  
-   - **Evidence:** commit history and README include sample data and usage.  
-   - **Why it matters:** Shows practical ability to structure code and data access for maintainability.
+
 
 ---
 
